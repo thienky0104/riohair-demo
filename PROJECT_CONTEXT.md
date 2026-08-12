@@ -56,7 +56,7 @@ The hero intro is a one-time, non-looping cinematic sequence built on a single *
 
 ### Timeline phases (with GSAP labels)
 
-1. **`titleReveal`** — The screen starts with a warm champagne overlay (`#e8dcc8`). The salon name "Triệu Tóc Đẹp" softly appears (opacity + translateY + slight scale) using `power4.out`. No bounce, no elastic.
+1. **`titleReveal`** — The screen starts with a warm champagne overlay (`#e8dcc8`). The salon name "Rio Hair" softly appears (opacity + translateY + slight scale) using `power4.out`. No bounce, no elastic.
 2. **`imageReveal`** — A small rectangular window of the hero image (about 15–20% screen width via `clip-path: inset(42% 42% 42% 42%)`) fades in. The image is not fully visible yet — it feels like looking through a tiny editorial window.
 3. **`expand`** — The image container animates its `clip-path` from the small rectangle to fullscreen (`inset(0% 0% 0% 0%)`) while the inner image independently scales from `1.15` → `1`. This is a premium reveal, not a cheap zoom. The overlay fades out simultaneously.
 4. (During expand) The salon title reduces opacity from `1` → `0.35` so it stays partially visible above the image but the image becomes the focus.
