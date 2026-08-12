@@ -1,4 +1,4 @@
-# Project Context — Triệu Tóc Đẹp
+# Project Context — Rio Hair
 
 > **Important:** The website content (all headings, paragraphs, buttons, labels, navigation items) must **always remain in Vietnamese** because the target users are Vietnamese salon customers. This document is written in English so Bolt can understand the project context in future sessions.
 
@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-**Triệu Tóc Đẹp** ("Triệu" = surname / "Tóc Đẹp" = beautiful hair) is a premium female hair salon based in Saigon, Vietnam. This repository is the salon's marketing website — an editorial, luxury, feminine single-page experience built to feel like a high-end beauty brand or fashion magazine rather than a startup landing page.
+**Rio Hair** ("Rio" = surname / "Hair" = beautiful hair) is a premium female hair salon based in Saigon, Vietnam. This repository is the salon's marketing website — an editorial, luxury, feminine single-page experience built to feel like a high-end beauty brand or fashion magazine rather than a startup landing page.
 
 The site is a single-page React application with a cinematic hero intro animation, a navigation bar, and a lower "craft" section describing the salon's process and stats.
 
