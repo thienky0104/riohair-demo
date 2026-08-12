@@ -23,7 +23,7 @@ export default function BookingCTA() {
         >
           Hãy để chúng tôi chăm sóc mái tóc của bạn. 
            <br />
-          Đặt lịch hẹn để nhận tư vấn cá nhân hóa, chọn kiểu tóc và dịch vụ phù hợp, và trải nghiệm dịch vụ chu đáo tại Triệu Tóc Đẹp.
+          Đặt lịch hẹn để nhận tư vấn cá nhân hóa, chọn kiểu tóc và dịch vụ phù hợp, và trải nghiệm dịch vụ chu đáo tại Rio Hair.
         </p>
         <div className="mt-10">
           <a

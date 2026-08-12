@@ -43,7 +43,7 @@ const Hero = forwardRef<HTMLElement>((_props, ref) => {
       <div className="absolute inset-0">
         <img
           src={HERO_IMG}
-          alt="Kiểu tóc nữ tại Triệu Tóc Đẹp, tiệm cắt tóc nữ ở Lái Thiêu, Thuận An"
+          alt="Kiểu tóc nữ tại Rio Hair, tiệm cắt tóc nữ ở Lái Thiêu, Thuận An"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#1c1612]/30 via-transparent to-[#1c1612]" />
@@ -71,9 +71,7 @@ const Hero = forwardRef<HTMLElement>((_props, ref) => {
               letterSpacing: '-0.01em',
             }}
           >
-            Triệu
-            <br />
-            Tóc Đẹp
+            Rio Hair
           </h1>
 
           {/* ── Google review badge ── */}

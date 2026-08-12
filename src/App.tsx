@@ -27,7 +27,7 @@ gsap.registerPlugin(SplitText);
  * The portal is NOT triggered by a React callback after the title finishes.
  * Instead it is added to the same master timeline at ~60% of the title's
  * actual computed stagger duration, so the two animations overlap
- * frame-perfectly. By the time the last characters of "Tóc Đẹp" are still
+ * frame-perfectly. By the time the last characters of the salon name are still
  * settling, the rectangular portal is already visibly opening in the center
  * of the screen.
  */
@@ -96,7 +96,7 @@ function App() {
       master.add(titleTl, 0);
 
       // ── Portal: synchronized to the actual "Đ" character ──
-      // The title is "Triệu\nTóc Đẹp". SplitText with type:'chars' splits on
+      // The title is the salon name. SplitText with type:'chars' splits on
       // characters only, so whitespace is preserved as its own char. The array
       // is: [T, r, i, ệ, u, \n, T, ó, c, (space), Đ, ẹ, p]. We find the "Đ"
       // (the first char of "Đẹp") and start the portal when its own tween

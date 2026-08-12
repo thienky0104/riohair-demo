@@ -135,13 +135,13 @@ export default function MapSection() {
                   className="text-[11px] uppercase tracking-[0.3em] text-[#7a6b5d]"
                   style={{ fontFamily: "'JetBrains Mono', monospace" }}
                 >
-                  Triệu Tóc Đẹp
+                  Rio Hair
                 </span>
                 <h3
                   className="text-[24px] leading-[1.2] text-[#2a221c] md:text-[28px]"
                   style={{ fontFamily: "'Newsreader', serif", fontWeight: 400 }}
                 >
-                  Triệu Tóc Đẹp
+                  Rio Hair
                 </h3>
               </div>
 
@@ -208,7 +208,7 @@ export default function MapSection() {
               <img
                 ref={imgRef}
                 src={MAP_IMAGE}
-                alt="Bản đồ chỉ đường tới Triệu Tóc Đẹp, tiệm cắt tóc nữ ở Lái Thiêu, Thuận An"
+                alt="Bản đồ chỉ đường tới Rio Hair, tiệm cắt tóc nữ ở Lái Thiêu, Thuận An"
                 loading="lazy"
                 decoding="async"
                 className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover/map:scale-[1.03]"

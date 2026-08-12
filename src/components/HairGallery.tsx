@@ -44,7 +44,7 @@ export default function HairGallery() {
             className="max-w-[480px] text-[14px] leading-[1.8] text-[#7a6b5d] md:text-[15px]"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
-            Các kiểu tóc nam & nữ được thực hiện tại salon, từ những đường cắt tỉa tỉ mỉ, kiểu uốn tự nhiên đến những phối màu nhuộm đa chiều. Triệu Salon sẽ mang đến những kiểu tóc vượt cả mong đợi của bạn.
+            Các kiểu tóc nam & nữ được thực hiện tại salon, từ những đường cắt tỉa tỉ mỉ, kiểu uốn tự nhiên đến những phối màu nhuộm đa chiều. Rio Hair sẽ mang đến những kiểu tóc vượt cả mong đợi của bạn.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function HairGallery() {
             >
               <img
                 src={src}
-                alt={`Kiểu tóc nam nữ thực tế tại Triệu Tóc Đẹp Lái Thiêu ${i + 1}`}
+                alt={`Kiểu tóc nam nữ thực tế tại Rio Hair Lái Thiêu ${i + 1}`}
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
               />

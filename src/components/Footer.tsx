@@ -9,7 +9,7 @@ export default function Footer() {
               className="text-white tracking-tight"
               style={{ fontFamily: "'Newsreader', serif", fontSize: '22px', fontWeight: 400 }}
             >
-              TRIỆU TÓC ĐẸP
+              RIO HAIR
             </span>
             <p
               className="text-[13px] leading-[1.8] text-white/50"
@@ -84,7 +84,7 @@ export default function Footer() {
             className="text-[11px] uppercase tracking-[0.2em] text-white/30"
             style={{ fontFamily: "'JetBrains Mono', monospace" }}
           >
-            © 2026 Triệu Tóc Đẹp. Bảo Lưu Mọi Quyền.
+            © 2026 Rio Hair. Bảo Lưu Mọi Quyền.
           </p>
         </div>
       </div>

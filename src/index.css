@@ -181,7 +181,7 @@ body {
   max-width: 100%;
 }
 
-/* "Tóc Đẹp" must never wrap. white-space: nowrap is the guarantee;
+/* The salon name must never wrap. white-space: nowrap is the guarantee;
    the responsive font-size + width above ensure it always fits. */
 .hero-title {
   font-size: var(--hero-title-font-size);

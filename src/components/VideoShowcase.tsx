@@ -64,7 +64,7 @@ export default function VideoShowcase() {
               className="text-[32px] leading-[1.1] tracking-tight text-[#2a221c] md:text-[44px]"
               style={{ fontFamily: "'Newsreader', serif", fontWeight: 400 }}
             >
-              Niềm Vui Của Khách Hàng Tại Triệu Salon
+              Niềm Vui Của Khách Hàng Tại Rio Hair
             </h2>
             <p
               className="max-w-[480px] text-[14px] leading-[1.8] text-[#7a6b5d] md:text-[15px]"

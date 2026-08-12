@@ -59,7 +59,7 @@ const Nav = forwardRef<HTMLElement>((_props, ref) => {
             className="text-white tracking-tighter hover:opacity-80 transition-opacity"
             style={{ fontFamily: "'Newsreader', serif", fontSize: '20px', lineHeight: '28px', fontWeight: 400 }}
           >
-            TRIỆU TÓC ĐẸP
+            RIO HAIR
           </a>
         </div>
 
@@ -78,7 +78,7 @@ const Nav = forwardRef<HTMLElement>((_props, ref) => {
         <div className="hidden md:flex md:items-center md:gap-5">
           <a
             href="tel:0942777009"
-            aria-label="Gõi Triệu Tóc Đẹp: 0942 777 009"
+            aria-label="Gọi Rio Hair: 0942 777 009"
             className="text-[#e2e2e2]/70 hover:text-[#e2e2e2] transition-colors duration-300 text-[12px] tracking-[0.05em] font-medium"
           >
             0942 777 009
