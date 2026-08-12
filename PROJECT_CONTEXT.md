@@ -25,7 +25,7 @@ The site is a single-page React application with a cinematic hero intro animatio
 
 ## Brand Identity
 
-- **Name:** Triệu Tóc Đẹp
+- **Name:** Rio Hair
 - **Location:** Lái Thiêu, Vietnam
 - **Established:** 2018
 - **Tone:** Editorial, refined, confident, feminine. Treats every head of hair as a canvas.
