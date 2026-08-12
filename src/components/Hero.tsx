@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 
-const HERO_IMG = 'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,w_1920/v1786087918/2026-08-06_07-24-22_Lumina_1_odim6y.jpg';
+const HERO_IMG = 'https://res.cloudinary.com/kx53fq3l/image/upload/v1786530708/grok-image-ce8b7ff7-34ac-4375-84a7-8ac1e83b5284.jpg';
 
 /**
  * The Hero is always mounted — from frame one. It is never faded in,
