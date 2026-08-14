@@ -14,7 +14,7 @@ export default function BookingCTA() {
       aria-label="Booking call to action"
       className="bg-[#FAF8F5] px-6 py-24 md:py-36"
     >
-      <div className="mx-auto max-w-[800px] text-center">
+      <div className="mx-auto max-w-[1100px] text-center">
         <span
           className="text-[11px] uppercase tracking-[0.3em] text-[#7a6b5d]"
           style={{ fontFamily: "'JetBrains Mono', monospace" }}
