@@ -62,7 +62,7 @@ export default function BookingCTA() {
               Chọn ngày và giờ phù hợp với bạn — đặt lịch ngay trên lịch trực tuyến.
             </p>
           </div>
-          <div className="h-[740px] w-full">
+          <div className="h-[760px] w-full">
             <Cal
               namespace="dat-lich"
               calLink="daile1512/dat-lich"
