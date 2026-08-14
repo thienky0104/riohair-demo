@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
     "@supabase/supabase-js": "^2.111.0",
     "embla-carousel-react": "^8.6.0",
     "gsap": "^3.15.0",

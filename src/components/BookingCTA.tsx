@@ -1,4 +1,14 @@
+import Cal, { getCalApi } from "@calcom/embed-react";
+import { useEffect } from "react";
+
 export default function BookingCTA() {
+  useEffect(() => {
+    (async () => {
+      const cal = await getCalApi({ namespace: "dat-lich" });
+      cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
+    })();
+  }, []);
+
   return (
     <section
       aria-label="Booking call to action"
@@ -21,8 +31,8 @@ export default function BookingCTA() {
           className="mx-auto mt-6 max-w-[520px] text-[15px] leading-[1.8] text-[#7a6b5d] md:text-[16px]"
           style={{ fontFamily: "'Inter', sans-serif" }}
         >
-          Hãy để chúng tôi chăm sóc mái tóc của bạn. 
-           <br />
+          Hãy để chúng tôi chăm sóc mái tóc của bạn.
+          <br />
           Đặt lịch hẹn để nhận tư vấn cá nhân hóa, chọn kiểu tóc và dịch vụ phù hợp, và trải nghiệm dịch vụ chu đáo tại Rio Hair.
         </p>
         <div className="mt-10">
@@ -35,6 +45,31 @@ export default function BookingCTA() {
           >
             Đặt Lịch Hẹn
           </a>
+        </div>
+
+        <div className="mt-16 overflow-hidden rounded-2xl border border-[#e8e0d6] bg-white shadow-[0_2px_24px_rgba(42,34,28,0.06)]">
+          <div className="border-b border-[#e8e0d6] bg-[#f5f0ea] px-6 py-4 text-left">
+            <span
+              className="text-[11px] uppercase tracking-[0.3em] text-[#7a6b5d]"
+              style={{ fontFamily: "'JetBrains Mono', monospace" }}
+            >
+              Lịch Trực Tuyến
+            </span>
+            <p
+              className="mt-1 text-[14px] text-[#7a6b5d]"
+              style={{ fontFamily: "'Inter', sans-serif" }}
+            >
+              Chọn ngày và giờ phù hợp với bạn — đặt lịch ngay trên lịch trực tuyến.
+            </p>
+          </div>
+          <div className="h-[640px] w-full">
+            <Cal
+              namespace="dat-lich"
+              calLink="daile1512/dat-lich"
+              style={{ width: "100%", height: "100%", overflow: "scroll" }}
+              config={{ layout: "month_view", useSlotsViewOnSmallScreen: "true" }}
+            />
+          </div>
         </div>
       </div>
     </section>
